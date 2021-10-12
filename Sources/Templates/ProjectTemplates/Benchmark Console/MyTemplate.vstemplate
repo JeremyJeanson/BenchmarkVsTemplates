@@ -1,0 +1,29 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>Benchmark Project Console</Name>
+    <Description>A project template to create benchmarks with BenchmarkDotNet</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <LanguageTag>C#</LanguageTag>
+    <ProjectTypeTag>Benchmark</ProjectTypeTag>
+    <ProjectTypeTag>Console</ProjectTypeTag>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>Benchmark</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <CreateInPlace>true</CreateInPlace>
+    <Icon>__TemplateIcon.ico</Icon>
+    <PreviewImage>__PreviewImage.png</PreviewImage>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="Project.csproj" File="Project.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="BenchmarkConfig.cs">BenchmarkConfig.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Benchmarks.cs">Benchmarks.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Program.cs">Program.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Run.ps1">Run.ps1</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
