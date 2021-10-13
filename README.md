@@ -1,5 +1,5 @@
 # Benchmark Templates
-![Benchmark Templates](Documentations/images/icon.png)
+![Benchmark Templates](Documentations/Images/icon.png)
 
 ## Introduction
 This project is an extension designed for Visual Studio 2017 and 2019. It includes templates to create benchmarks with [BenchmarkDotNet](https://benchmarkdotnet.org/) :
