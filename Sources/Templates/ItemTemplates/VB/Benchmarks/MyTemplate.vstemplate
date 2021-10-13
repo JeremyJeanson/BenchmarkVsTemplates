@@ -1,0 +1,14 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <DefaultName>Benchmarks.vb</DefaultName>
+    <Name>Benchmarks</Name>
+    <Description>A class to define Benchmarks</Description>
+    <ProjectType>VisualBasic</ProjectType>
+    <SortOrder>10</SortOrder>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <References />
+    <ProjectItem SubType="Code" TargetFileName="$fileinputname$.vb" ReplaceParameters="true">Benchmarks.vb</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

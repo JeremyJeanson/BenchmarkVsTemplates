@@ -2,12 +2,12 @@
   <TemplateData>
     <Name>Benchmark Project Console</Name>
     <Description>A project template to create benchmarks with BenchmarkDotNet</Description>
-    <ProjectType>CSharp</ProjectType>
+    <ProjectType>VisualBasic</ProjectType>
     <ProjectSubType>
     </ProjectSubType>
-    <LanguageTag>C#</LanguageTag>
+    <LanguageTag>Visual Basic</LanguageTag>
     <ProjectTypeTag>Benchmark</ProjectTypeTag>
-    <ProjectTypeTag>Console</ProjectTypeTag>
+    <ProjectTypeTag>Console</ProjectTypeTag>    
     <SortOrder>1000</SortOrder>
     <CreateNewFolder>true</CreateNewFolder>
     <DefaultName>Benchmark</DefaultName>
@@ -18,10 +18,10 @@
     <Icon>__TemplateIcon.ico</Icon>
   </TemplateData>
   <TemplateContent>
-    <Project TargetFileName="Project.csproj" File="Project.csproj" ReplaceParameters="true">
-      <ProjectItem ReplaceParameters="true" TargetFileName="BenchmarkConfig.cs">BenchmarkConfig.cs</ProjectItem>
-      <ProjectItem ReplaceParameters="true" TargetFileName="Benchmarks.cs">Benchmarks.cs</ProjectItem>
-      <ProjectItem ReplaceParameters="true" TargetFileName="Program.cs">Program.cs</ProjectItem>
+    <Project TargetFileName="Benchmark Console.vbproj" File="Benchmark Console.vbproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="BenchmarkConfig.vb">BenchmarkConfig.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Benchmarks.vb">Benchmarks.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Program.vb">Program.vb</ProjectItem>
       <ProjectItem ReplaceParameters="false" TargetFileName="Run.ps1">Run.ps1</ProjectItem>
     </Project>
   </TemplateContent>
