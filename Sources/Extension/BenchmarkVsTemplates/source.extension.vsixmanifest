@@ -4,6 +4,10 @@
         <Identity Id="BenchmarkTemplates.f52ca0ca-a166-4d99-823a-c09fbac26f4d" Version="0.1.1" Language="en-US" Publisher="JeremyJeanson" />
         <DisplayName>Benchmark Templates</DisplayName>
         <Description xml:space="preserve">Templates to create bechmarks with BenchmarkDotNet.</Description>
+        <MoreInfo>https://github.com/JeremyJeanson/BenchmarkVsTemplates</MoreInfo>
+        <License>LICENSE.txt</License>
+        <Icon>icon.ico</Icon>
+        <Tags>Benchmark; BenchmarkDotNet</Tags>
         <Preview>true</Preview>
     </Metadata>
     <Installation>
