@@ -18,7 +18,7 @@ Namespace $safeprojectname$
         Public Shared Function [Get]() As IConfig
             Return ManualConfig.CreateEmpty() _
                 .AddJob(Job.Default _
-                    .WithRuntime(CoreRuntime.Core50) _
+                    .WithRuntime(CoreRuntime.Core60) _
                     .WithPlatform(Platform.X64)) _
                 .AddDiagnoser(MemoryDiagnoser.Default) _
                 .AddColumnProvider(DefaultColumnProviders.Instance) _

@@ -23,7 +23,7 @@ namespace $safeprojectname$
             return ManualConfig.CreateEmpty()
                 // Jobs
                 .AddJob(Job.Default
-                    .WithRuntime(CoreRuntime.Core50)
+                    .WithRuntime(CoreRuntime.Core60)
                     .WithPlatform(Platform.X64))
                 // Configuration of diagnosers and outputs
                 .AddDiagnoser(MemoryDiagnoser.Default)
