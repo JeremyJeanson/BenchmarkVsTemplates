@@ -2,7 +2,7 @@
 ![Benchmark Templates](Documentations/Images/icon.png)
 
 ## Introduction
-This project is an extension designed for Visual Studio 2017 and 2019. It includes templates to create benchmarks with [BenchmarkDotNet](https://benchmarkdotnet.org/) :
+This project is an extension designed for Visual Studio 2017, 2019 and 2022. It includes templates to create benchmarks with [BenchmarkDotNet](https://benchmarkdotnet.org/) :
 - Project template to create a console app (C#)
 - Project template to create a console app (Visual Basic)
 - Item template to add benchmarks (C#)
