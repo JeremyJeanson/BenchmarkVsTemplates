@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="BenchmarkTemplates.f52ca0ca-a166-4d99-823a-c09fbac26f4d" Version="1.0.0" Language="en-US" Publisher="JeremyJeanson" />
+        <Identity Id="BenchmarkTemplates.f52ca0ca-a166-4d99-823a-c09fbac26f4d" Version="2.0.0" Language="en-US" Publisher="JeremyJeanson" />
         <DisplayName>Benchmark Templates</DisplayName>
         <Description xml:space="preserve">Templates to create benchmarks with BenchmarkDotNet.</Description>
         <MoreInfo>https://github.com/JeremyJeanson/BenchmarkVsTemplates</MoreInfo>
